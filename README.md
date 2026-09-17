@@ -5,7 +5,7 @@
 ## Install (lazy.nvim)
 
 ```lua
-{ "dragmakex/look-away", opts = { interval = 20 * 60, duration = 20 } } -- seconds
+{ "dragmakex/look-away.nvim", opts = { interval = 20 * 60, duration = 20 } } -- seconds
 ```
 
 ## Commands
