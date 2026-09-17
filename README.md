@@ -12,7 +12,7 @@
 
 ## Commands
 
-`:LookAway [start|stop|toggle|now|skip|status]` — no arg toggles.
+`:LookAway [start|stop|toggle|now|skip|status]`
 
 ## Statusline
 
