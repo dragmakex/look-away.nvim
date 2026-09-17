@@ -5,12 +5,14 @@
 ## Install (lazy.nvim)
 
 ```lua
-{ "dragmakex/look-away.nvim", opts = { interval = 20 * 60, duration = 20 } } -- seconds
+{ "dragmakex/look-away.nvim", opts = { interval = 20 * 60, duration = 20, block = false } }
 ```
+
+`interval` and `duration` are seconds. `block = true` covers the editor with a countdown during breaks; `<Esc>` ends it early.
 
 ## Commands
 
-`:LookAway [start|stop|toggle|now|status]` — no arg toggles.
+`:LookAway [start|stop|toggle|now|skip|status]` — no arg toggles.
 
 ## Statusline
 
